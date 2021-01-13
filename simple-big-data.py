@@ -5,7 +5,7 @@ import random
 
 x = []
 y = []
-num = 100000
+num = 1000000
 start_time = time.time()
 for i in range(num):
   x.append(random.randint(0,30))
