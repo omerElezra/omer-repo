@@ -1,7 +1,7 @@
 # Ubuntu 20.04 (focal)
 # https://hub.docker.com/_/ubuntu/?tab=tags&name=focal
-# ARG ROOT_CONTAINER=amr-registry.caas.intel.com/intelaa/ubuntu:20.04
-ARG ROOT_CONTAINER=ubuntu:20.04
+ARG ROOT_CONTAINER=amr-registry.caas.intel.com/intelaa/ubuntu:20.04
+# ARG ROOT_CONTAINER=ubuntu:20.04
 FROM $ROOT_CONTAINER
 
 LABEL maintainer="Omer Elezra <omer.elezra@intel.com>"
