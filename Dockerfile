@@ -11,22 +11,9 @@ ENV PYTHON_VERSION=3.9
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update --yes && \
     apt-get upgrade --yes && \
-    apt-get install --yes --no-install-recommends \
-    bzip2 \
-    ca-certificates \
-    fonts-liberation \
-    locales \
-    pandoc \
-    run-one \
-    python3-pip \
-    build-essential \
-    libssl-dev \
-    libffi-dev \
-    python3-dev \
+    apt-get install --yes --no-install-recommends \   
     sudo \
     curl \
-    software-properties-common \
-    tini \
     openssh-server \
     cifs-utils \
     wget && \
